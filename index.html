@@ -4,10 +4,6 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <link rel="stylesheet" href="style.css" />
-    <link
-      href="https://fonts.googleapis.com/css?family=Bubblegum Sans"
-      rel="stylesheet"
-    />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Blogging Website</title>
   </head>
@@ -21,13 +17,12 @@
           </li>
         </ul>
       </nav>
-
       <!-- ------modal create post-------- -->
       <div class="modal hide">
         <div class="modal-items">
           <div class="cross">
             <h1>Create A Post</h1>
-            <span> <button class="close">X</button> </span>
+            <span><button class="close">X</button></span>
           </div>
           <input type="text" id="topic" placeholder="Enter your heading..." />
           <textarea
@@ -67,16 +62,8 @@
           ></textarea>
 
           <div class="btns">
-            <button class="btn" id="edit-post-button" onclick="saveEditPost()">
-              Save post
-            </button>
-            <button
-              class="cancel btn"
-              id="delete-post-button"
-              onclick="deletePost()"
-            >
-              Delete post
-            </button>
+            <button class="btn" id="edit-post-button" onclick="saveEditPost()">Save post</button>
+            <button class="cancel btn" id="delete-post-button" onclick="deletePost()">Delete post</button>
           </div>
         </div>
       </div>
